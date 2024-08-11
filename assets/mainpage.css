@@ -1,0 +1,30 @@
+body .mainpage {
+    width: 100%;
+    height: 85vh;
+    margin-top: 15vh;
+    background:
+        linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        var(--dot-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body .mainpage .description1 {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+body .mainpage .description1 .navig {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(118, 118, 184, 0.5);
+}
