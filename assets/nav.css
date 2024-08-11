@@ -1,0 +1,72 @@
+nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1vh solid var(--primary-color);
+}
+
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vh;
+    height: 15vh;
+}
+
+nav .logo a {
+    width: 10vh;
+    height: 10vh;
+    overflow: hidden;
+    transition: all .2s;
+}
+
+nav .logo a:hover {
+    transform: scale(0.9);
+    transition: all .2s;
+}
+
+nav .logo a img {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 7vh;
+    display: block;
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+
+nav .space {
+    width: 50vw;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    height: 14vh;
+    margin: 0 5vh 0 0;
+}
+
+nav .menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 14vh;
+    font-size: 1.5vw;
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+
+nav .menu a:hover {
+    background-color: #1d1d1d;
+    color: var(--primary-color-hover);
+    transition: all 0.2s ease-in;
+}
